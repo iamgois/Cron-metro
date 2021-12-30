@@ -1,0 +1,43 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.container{
+    text-align: center;
+}
+
+button{
+    background-color: coral;
+    color: white;
+    font-size: 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    border: 1px solid coral;
+    transition: all 0.5s ease;
+}
+
+button:hover{
+    color: coral;
+    border: 1px solid coral;
+    background-color: white;
+}
+
+.time{
+    border: 2px solid coral;
+    padding: 5px 40px;
+    font-size: 15px;
+    color: coral;
+}
+
+#display h3{
+    font-size: 60px;
+    color: coral;
+}
